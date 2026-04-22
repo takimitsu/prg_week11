@@ -27,9 +27,11 @@ class StudentsGrades:
             return "F"
 
     def find(self, score):
+        indexes = []
+
         for i in range(len(self.scores)):
             if self.scores[i] == score:
-                return [i]
+                indexes.append(i)
 
         return []
 
