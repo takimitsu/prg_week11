@@ -45,10 +45,11 @@ def bubble_sort(arr: list) -> list:
 
 if __name__ == "__main__":
     test_arr = [8, 5, 1, 4, 2]
-    random_arr = random_numbers(20)
+    random_arr = random_numbers(50)
+    reverse_nums = [i for i in range(0, 101)][::-1]
 
-    print(selection_sort(test_arr))
+    #print(selection_sort(test_arr))
     #print(selection_sort(random_arr))
 
     #print(bubble_sort(test_arr))
-    #print(bubble_sort(random_arr))
+    #print(bubble_sort(reverse_nums))
